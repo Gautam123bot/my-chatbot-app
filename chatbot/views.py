@@ -6,10 +6,10 @@ from django.conf import settings
 import google.generativeai as palm
 import google.api_core.exceptions as exceptions
 
-# open_api_key ='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'
+# open_api_key ='<Enter your api key here>'
 # openai.api_key = open_api_key
 
-# API_KEY = 'AIzaSyBocqZRY_ueuxTQIHhTmxlsxUO5iu6q9BI'
+# API_KEY = '<Enter your api key here>'
 API_KEY=settings.BARD_API_KEY
 palm.configure(api_key=API_KEY)
 

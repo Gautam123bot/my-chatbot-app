@@ -1,9 +1,9 @@
-// API KEY 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
+// API KEY <secret_key here>
 const app = require("express")();
 const bodyParser = require("body-parser");
 const { Configuration, OpenAIApi } = require("openai");
 const config = new Configuration({
-  apiKey: "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",
+  // apiKey: "<enter your secret key here>",
 });
 const openai = new OpenAIApi(config);
 

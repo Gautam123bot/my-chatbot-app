@@ -1,4 +1,4 @@
 import os
 
-os.environ["AIzaSyBocqZRY_ueuxTQIHhTmxlsxUO5iu6q9BI"] = "YOUR_API_KEY"
+os.environ["<Enter your secret key here to set as your api key>"] = "YOUR_API_KEY"
 
